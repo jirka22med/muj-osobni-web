@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moje Osobní Stránka</title>
+    <link href="https://fonts.googleapis.com/css2?family=Arial&family=Helvetica&family=sans-serif&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Vítejte na mé osobní stránce!</h1>
+        <p>Jiří Med – Milovník techniky a zábavy</p>
+    </header>
+
+    <nav>
+        <div class="nav-container">
+            <a href="#" class="nav-link" data-section="about">O mně</a>
+            <a href="#" class="nav-link" data-section="portfolio">Portfolio</a>
+            <a href="#" class="nav-link" data-section="contacts">Kontakty</a>
+            <a href="#" class="nav-link" data-section="editor">HTML Editor</a>
+            <a href="#" class="nav-link" data-section="saved">Moje HTML kódy</a>
+            <a href="#" class="nav-link" data-section="gallery">Galerie</a>
+            <a href="#" class="nav-link" data-section="links">Odkazy</a>
+        </div>
+    </nav>
+
+    <main>
+        <section id="about">
+            <h2>O mně</h2>
+            <p><strong>Jiří Med – Milovník techniky a zábavy</strong></p>
+            <div>
+                <h3>Co rád dělám o volných chvílích:</h3>
+                <p><strong>Hraní počítačových her:</strong> Jsem fanoušek herního světa, kde se rád ponořím do různých virtuálních světů. Ať už je to akce, strategie nebo RPG, počítačové hry mě baví a pomáhají mi vypnout. Herní svět mi dává prostor pro dobrodružství, výzvy a rozvoj strategie.</p>
+                <p><strong>Sledování YouTube videí:</strong> Když zrovna nehraju hry, užívám si sledování videí na YouTube. Zajímají mě herní let’s playe, technické novinky a videa oblíbených vloggerů, která mě inspirují a občas rozesmějí. YouTube je pro mě zábavou i zdrojem nových nápadů.</p>
+            </div>
+            <div>
+                <h3>Další zájmy:</h3>
+                <p><strong>Star Trek:</strong> Moje vášeň pro sci-fi svět Star Treku je obrovská. Miluju tento seriál i jeho postavy, které mě provázejí už od dětství. Vlastním projekt věnovaný Star Treku, kde kombinuji svou lásku k tomuto univerzu s technickými znalostmi. Futuristické technologie a warpové efekty jsou pro mě fascinující, a dokonce jsem je začlenil do svého webového projektu.</p>
+                <p><strong>Technika a kódování:</strong> Jsem nadšenec do technologií a rád pracuju na různých technických výzvách. Programování a úprava HTML a CSS jsou mojí vášní, protože mě baví vytvářet funkční a esteticky krásné webové stránky. Mám cit pro detail a rád kombinuju moderní design s inovativními funkcemi.</p>
+            </div>
+            <div>
+                <h3>Styl života:</h3>
+                <p>Rád trávím čas u počítače, ať už při hraní, tvorbě webů nebo sledování videí. Miluju barevné LED pásky a osvětlení, které bliká do rytmu hudby, což přináší skvělou atmosféru do mého prostoru. Tato kombinace techniky a estetiky mi dodává inspiraci a vytváří místo, kde se cítím dobře.</p>
+            </div>
+        </section>
+
+        <section id="portfolio">
+            <h2>Portfolio</h2>
+            <p>V této sekci najdeš ukázky mých projektů a práce, které odrážejí mé zájmy v oblasti technologií. I když nejsem programátor, díky spolupráci s AI, jako je ChatGPT a Claude.AI, se mi podařilo vytvořit tyto projekty, na které jsem pyšný.</p>
+            <div class="portfolio-items" style="display: flex; flex-direction: column; gap: 1.5rem;">
+                <div class="portfolio-item" style="background-color: #f9f9f9; padding: 1rem; border-radius: 4px; border: 1px solid var(--border-color);">
+                    <h3>Star Trek Webový Projekt</h3>
+                    <p>Tento projekt je věnován mému oblíbenému sci-fi seriálu Star Trek. Díky pomoci od chatbotů ChatGPT a Claude.AI jsem vytvořil interaktivní webovou stránku s animacemi warp pohonu, seznamy postav a klíčovými momenty ze všech sérií. Stránka je responzivní a přizpůsobí se jakémukoli zařízení, což navozuje pocit, jako bys byl přímo ve vesmíru.</p>
+                    <a href="#">Zobrazit projekt &rarr;</a>
+                </div>
+                <div class="portfolio-item" style="background-color: #f9f9f9; padding: 1rem; border-radius: 4px; border: 1px solid var(--border-color);">
+                    <h3>Audio a LED projekty</h3>
+                    <p>Tento projekt je skvělým příkladem mého praktického přístupu k technice. Vzal jsem dva reproduktory Lamax Storm 1, které jsem rozebral, a odpojil jsem u nich jeden z malých vnitřních reproduktorů...</p>
+                    <p>Celý systém je postaven na jednoduchém principu: zvukové signály, které normálně pohánějí reproduktory, jsou přesměrovány tak, aby poháněly osvětlení...</p>
+                    <a href="#">Více o projektu &rarr;</a>
+                </div>
+                <div class="portfolio-item" style="background-color: #f9f9f9; padding: 1rem; border-radius: 4px; border: 1px solid var(--border-color);">
+                    <h3>Webový design a kódování</h3>
+                    <p>I když se nepovažuji za programátora, díky AI jsem zvládl tvorbu responzivních webových stránek s moderním designem. Mám několik projektů, které využívají HTML, CSS a JavaScript, a které mi pomohla vytvořit umělá inteligence.</p>
+                    <a href="#">Prohlédnout si ukázky &rarr;</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacts">
+            <h2>Kontakty</h2>
+            <p>Zde můžete přidat své kontaktní údaje, jako je e-mail, odkazy na sociální sítě (např. Discord, GitHub) nebo jiné způsoby, jak vás mohou lidé oslovit.</p>
+            <div class="contact-details" style="margin-top: 1rem;">
+                <p><strong>E-mail:</strong> <a href="mailto:tvuj.email@example.com">tvuj.email@example.com</a></p>
+                <p><strong>Discord:</strong> TvojeJmeno#1234</p>
+            </div>
+        </section>
+
+        <section id="editor">
+            <h2>HTML Editor</h2>
+            <div class="editor-grid">
+                <div>
+                    <label for="html-editor">HTML Kód:</label>
+                    <textarea id="html-editor" placeholder="Zde pište svůj HTML kód..."></textarea>
+                </div>
+                <div>
+                    <label for="html-preview">Náhled:</label>
+                    <iframe id="html-preview"></iframe>
+                </div>
+            </div>
+            <button id="save-code-btn">Uložit kód</button>
+        </section>
+
+        <section id="saved">
+            <h2>Moje HTML kódy</h2>
+            <div id="saved-codes-list">
+                <p>Žádné kódy zatím nebyly uloženy nebo se načítají...</p>
+            </div>
+            <div id="userIdHtmlCodes" class="user-id-display"></div>
+        </section>
+
+        <section id="gallery">
+            <h2>Galerie</h2>
+            <div class="gallery-controls">
+                <label for="newImageUrl" class="visually-hidden">Přidat obrázek (URL):</label>
+                <input type="url" id="newImageUrl" placeholder="https://example.com/obrazek.jpg">
+                <button id="addImageUrlBtn">Přidat</button>
+            </div>
+            <div id="gallery-container">
+                <p>Galerie je prázdná nebo se načítají obrázky...</p>
+            </div>
+            <div id="userIdGallery" class="user-id-display"></div>
+        </section>
+
+        <section id="links">
+            <h2>Externí Odkazy</h2>
+            <ul id="links-list">
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentYear"></span> Jiří Med. Všechna práva vyhrazena.</p>
+        <p>Inspirováno technologiemi a budoucností.</p>
+    </footer>
+
+    <div id="image-modal" class="modal-backdrop hidden">
+        <div class="modal-content">
+            <img id="modal-img" src="" alt="Zvětšený obrázek">
+            <div class="modal-controls">
+                <button id="prev-image-btn" class="btn-secondary">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 19-7-7 7-7"/><path d="M19 12H5"/></svg>
+                    Předchozí
+                </button>
+                <button id="close-modal-btn" class="btn-danger">Zavřít</button>
+                <button id="next-image-btn" class="btn-secondary">
+                    Další
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-left: 5px;"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div id="save-code-modal" class="modal-backdrop hidden">
+        <div class="modal-content">
+            <h3>Uložit HTML kód</h3>
+            <label for="code-title-input">Název kódu:</label>
+            <input type="text" id="code-title-input" placeholder="Např. Můj úžasný snippet">
+            <div class="modal-buttons">
+                <button id="cancel-save-code-btn" class="btn-secondary">Zrušit</button>
+                <button id="confirm-save-code-btn">Uložit</button>
+            </div>
+        </div>
+    </div>
+    
+    <div id="alert-modal" class="modal-backdrop hidden">
+        <div class="modal-content">
+            <h3 id="alert-modal-title">Upozornění</h3>
+            <p id="alert-modal-message"></p>
+            <div class="modal-buttons">
+                <button id="alert-modal-ok-btn">OK</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
